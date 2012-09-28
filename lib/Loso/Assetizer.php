@@ -2,6 +2,9 @@
 
 namespace Loso;
 
+use RecursiveDirectoryIterator;
+use RecursiveIteratorIterator;
+
 class Assetizer
 {
 
@@ -207,7 +210,7 @@ class Assetizer
                 $woptions[$name] = isset($coll['write']) ? $coll['write'] : array();
                 $woptions[$name] = array_merge($defaultWoptions, $woptions[$name]);
 
-                $coll['options']['name'] = str_ireplace("{APPLICATION_REVISION}", APPLICATION_REVISION, $coll['options']['name']);
+                // $coll['options']['name'] = str_ireplace("{APPLICATION_REVISION}", APPLICATION_REVISION, $coll['options']['name']);
                 $asset = $f->createAsset($coll['inputs'], $coll['filters'], $coll['options']);
                 if($coll['cache']) {
                     $asset = new \Assetic\Asset\AssetCache($asset, $this->getAssetCache());

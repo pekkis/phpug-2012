@@ -8,12 +8,10 @@
     <title>Lamantiini.com</title>    <meta charset="UTF-8"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-    <link href="<?php echo $helper->asset('/lamantiini.css'); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $helper->asset('/common.css'); ?>" media="screen" rel="stylesheet" type="text/css" />
     <link href="/favicon.png" rel="icon" type="image/png" />
 
-    <script type="text/javascript" src="<?php echo $helper->asset('/modernizr.js'); ?>"></script>
-    <script type="text/javascript" src="<?php echo $helper->asset('/jquery.js'); ?>"></script>
-    <script type="text/javascript" src="<?php echo $helper->asset('/lamantiini.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo $helper->asset('/essential.js'); ?>"></script>
 
 </head>
 
