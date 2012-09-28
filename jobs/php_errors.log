@@ -1,0 +1,104 @@
+[28-Sep-2012 11:16:58 UTC] PHP Parse error:  syntax error, unexpected '<' in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 5
+[28-Sep-2012 11:16:58 UTC] PHP Stack trace:
+[28-Sep-2012 11:16:58 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:16:58 UTC] PHP   2. Composer\Autoload\ClassLoader->loadClass() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:17:08 UTC] PHP Notice:  Undefined index: nodePath in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67
+[28-Sep-2012 11:17:08 UTC] PHP Stack trace:
+[28-Sep-2012 11:17:08 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:17:08 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:7
+[28-Sep-2012 11:17:08 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:17:08 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:17:08 UTC] PHP Notice:  Undefined index: nodePaths in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67
+[28-Sep-2012 11:17:08 UTC] PHP Stack trace:
+[28-Sep-2012 11:17:08 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:17:08 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:7
+[28-Sep-2012 11:17:08 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:17:08 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:17:08 UTC] PHP Catchable fatal error:  Argument 2 passed to Assetic\Filter\LessFilter::__construct() must be of the type array, null given, called in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67 and defined in /wwwroot/phpug-2012/vendor/kriswallsmith/assetic/src/Assetic/Filter/LessFilter.php on line 34
+[28-Sep-2012 11:17:08 UTC] PHP Stack trace:
+[28-Sep-2012 11:17:08 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:17:08 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:7
+[28-Sep-2012 11:17:08 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:17:08 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:17:08 UTC] PHP   5. Assetic\Filter\LessFilter->__construct() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:67
+[28-Sep-2012 11:21:44 UTC] PHP Notice:  Use of undefined constant APPLICATION_PATH - assumed 'APPLICATION_PATH' in /wwwroot/phpug-2012/jobs/assetize.php on line 70
+[28-Sep-2012 11:21:44 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:44 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:44 UTC] PHP Notice:  Use of undefined constant APPLICATION_PATH - assumed 'APPLICATION_PATH' in /wwwroot/phpug-2012/jobs/assetize.php on line 72
+[28-Sep-2012 11:21:44 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:44 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:44 UTC] PHP Notice:  Undefined index: nodePath in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67
+[28-Sep-2012 11:21:44 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:44 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:44 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:88
+[28-Sep-2012 11:21:44 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:21:44 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:21:44 UTC] PHP Notice:  Undefined index: nodePaths in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67
+[28-Sep-2012 11:21:44 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:44 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:44 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:88
+[28-Sep-2012 11:21:44 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:21:44 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:21:44 UTC] PHP Catchable fatal error:  Argument 2 passed to Assetic\Filter\LessFilter::__construct() must be of the type array, null given, called in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67 and defined in /wwwroot/phpug-2012/vendor/kriswallsmith/assetic/src/Assetic/Filter/LessFilter.php on line 34
+[28-Sep-2012 11:21:44 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:44 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:44 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:88
+[28-Sep-2012 11:21:44 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:21:44 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:21:44 UTC] PHP   5. Assetic\Filter\LessFilter->__construct() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:67
+[28-Sep-2012 11:21:45 UTC] PHP Notice:  Use of undefined constant APPLICATION_PATH - assumed 'APPLICATION_PATH' in /wwwroot/phpug-2012/jobs/assetize.php on line 70
+[28-Sep-2012 11:21:45 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:45 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:45 UTC] PHP Notice:  Use of undefined constant APPLICATION_PATH - assumed 'APPLICATION_PATH' in /wwwroot/phpug-2012/jobs/assetize.php on line 72
+[28-Sep-2012 11:21:45 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:45 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:45 UTC] PHP Notice:  Undefined index: nodePath in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67
+[28-Sep-2012 11:21:45 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:45 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:45 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:88
+[28-Sep-2012 11:21:45 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:21:45 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:21:45 UTC] PHP Notice:  Undefined index: nodePaths in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67
+[28-Sep-2012 11:21:45 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:45 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:45 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:88
+[28-Sep-2012 11:21:45 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:21:45 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:21:45 UTC] PHP Catchable fatal error:  Argument 2 passed to Assetic\Filter\LessFilter::__construct() must be of the type array, null given, called in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67 and defined in /wwwroot/phpug-2012/vendor/kriswallsmith/assetic/src/Assetic/Filter/LessFilter.php on line 34
+[28-Sep-2012 11:21:45 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:45 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:45 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:88
+[28-Sep-2012 11:21:45 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:21:45 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:21:45 UTC] PHP   5. Assetic\Filter\LessFilter->__construct() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:67
+[28-Sep-2012 11:21:46 UTC] PHP Notice:  Use of undefined constant APPLICATION_PATH - assumed 'APPLICATION_PATH' in /wwwroot/phpug-2012/jobs/assetize.php on line 70
+[28-Sep-2012 11:21:46 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:46 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:46 UTC] PHP Notice:  Use of undefined constant APPLICATION_PATH - assumed 'APPLICATION_PATH' in /wwwroot/phpug-2012/jobs/assetize.php on line 72
+[28-Sep-2012 11:21:46 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:46 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:46 UTC] PHP Notice:  Undefined index: nodePath in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67
+[28-Sep-2012 11:21:46 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:46 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:46 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:88
+[28-Sep-2012 11:21:46 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:21:46 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:21:46 UTC] PHP Notice:  Undefined index: nodePaths in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67
+[28-Sep-2012 11:21:46 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:46 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:46 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:88
+[28-Sep-2012 11:21:46 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:21:46 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:21:46 UTC] PHP Catchable fatal error:  Argument 2 passed to Assetic\Filter\LessFilter::__construct() must be of the type array, null given, called in /wwwroot/phpug-2012/lib/Loso/Assetizer.php on line 67 and defined in /wwwroot/phpug-2012/vendor/kriswallsmith/assetic/src/Assetic/Filter/LessFilter.php on line 34
+[28-Sep-2012 11:21:46 UTC] PHP Stack trace:
+[28-Sep-2012 11:21:46 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:21:46 UTC] PHP   2. Loso\Assetizer->init() /wwwroot/phpug-2012/jobs/assetize.php:88
+[28-Sep-2012 11:21:46 UTC] PHP   3. Loso\Assetizer->initAssets() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:109
+[28-Sep-2012 11:21:46 UTC] PHP   4. Loso\Assetizer->getFilterManager() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:127
+[28-Sep-2012 11:21:46 UTC] PHP   5. Assetic\Filter\LessFilter->__construct() /wwwroot/phpug-2012/lib/Loso/Assetizer.php:67
+[28-Sep-2012 11:23:57 UTC] PHP Notice:  Use of undefined constant APPLICATION_PATH - assumed 'APPLICATION_PATH' in /wwwroot/phpug-2012/jobs/assetize.php on line 70
+[28-Sep-2012 11:23:57 UTC] PHP Stack trace:
+[28-Sep-2012 11:23:57 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
+[28-Sep-2012 11:23:57 UTC] PHP Notice:  Use of undefined constant APPLICATION_PATH - assumed 'APPLICATION_PATH' in /wwwroot/phpug-2012/jobs/assetize.php on line 72
+[28-Sep-2012 11:23:57 UTC] PHP Stack trace:
+[28-Sep-2012 11:23:57 UTC] PHP   1. {main}() /wwwroot/phpug-2012/jobs/assetize.php:0
